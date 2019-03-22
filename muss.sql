@@ -1,7 +1,8 @@
 use SBTReportingDataMart;
 go
 
-WITH SQUAD_JIRA_RELAT AS 
+WITH SQUAD_JIRA_RELAT AS
+-- test 
 (
 SELECT DISTINCT SquadId, JiraProjectValue, JiraProjectDomainId FROM Sbergile.SquadJiraProjectRelation
 WHERE IsArchived = 0
