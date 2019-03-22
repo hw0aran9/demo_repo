@@ -2,7 +2,7 @@ use SBTReportingDataMart;
 go
 
 WITH SQUAD_JIRA_RELAT AS
--- test 
+-- test online
 (
 SELECT DISTINCT SquadId, JiraProjectValue, JiraProjectDomainId FROM Sbergile.SquadJiraProjectRelation
 WHERE IsArchived = 0
